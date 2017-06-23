@@ -21,4 +21,6 @@ we also can expand the attributes from one liner arrangement to multiline arrang
 - hot key :: `ctrl + alt + ]` --> to compress
 
 bugs ::
--on complex value still error on finder and expand or contract
+- on complex value still error on finder and expand or contract (like sentence value on conversation tag)
+- on expand and contract there are still issue (we have to select from open bracket `<` to close bracket `>`. to expand and contract things.
+- no regex implemented :(
