@@ -13,8 +13,8 @@ to designated attributes value just by typing on it
 to erase all the higlight just use 'escape'
 \n
 we also can expand the attributes from one liner arrangement to multiline arrangement for easy reading and clarity
--nhot key :: ctrl + alt + [ --> to expand
--nhot key :: ctrl + alt + ] --> to compress
+-hot key :: ctrl + alt + [ --> to expand
+-hot key :: ctrl + alt + ] --> to compress
 
 bugs ::
 -on complex value still error on finder and expand or contract
