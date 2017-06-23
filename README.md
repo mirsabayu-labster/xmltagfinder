@@ -7,7 +7,10 @@ copy all the files to your :: [Default Drive]:\Users\[User]\AppData\Roaming\Subl
 
 
 xml tag finder is a sublime plugin to quickly find a value of attributes.
-hot key : `ctrl+shift+c` to open pop up dialog. with the list of tag in it. we can easily jump 
+
+hot key : `ctrl+shift+c` 
+
+to open pop up dialog. with the list of tag in it. we can easily jump 
 to designated attributes value just by typing on it
 
 to erase all the higlight just use 'escape'
