@@ -5,6 +5,9 @@ how to use ::
 copy all the files to your :: [Default Drive]:\Users\[User]\AppData\Roaming\Sublime Text 3\Packages\User\
 [too lazy to make it as a package :p]
 
+example::
+C:\Users\mirsa\AppData\Roaming\Sublime Text 3\Packages\User
+
 
 xml tag finder is a sublime plugin to quickly find a value of attributes.
 
