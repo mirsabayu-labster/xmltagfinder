@@ -2,7 +2,7 @@
 xml tag finder plugin for sublime
 
 how to use ::
-copy all the files to your :: [Default Drive]:\Users\[User]\AppData\Roaming\Sublime Text 3\Packages\User\
+copy all the files to your :: [Default Drive]:\Users\\[User]\AppData\Roaming\Sublime Text 3\Packages\User\
 [too lazy to make it as a package :p]
 
 example::
