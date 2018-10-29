@@ -2,25 +2,20 @@
 //Fold all code blocks
   { "keys": ["alt+0", "alt+0"],
     "command": "fold_all" },
-
 // Unfold all code blocks
   { "keys": ["alt+shift+0", "alt+shift+0"],
     "command": "unfold_all"},
-
 // Toggle fold current code block
   { "keys": ["alt+1", "alt+1"],
     "command": "toggle_fold_current"},
-
     { "keys": ["ctrl+shift+c"],
     "command": "labster_tag"},
-
     { "keys": ["escape"],
     "command": "labster_erase"},
-
     { "keys": ["control+alt+["],
     "command": "labster_expand_text"},
-
     { "keys": ["control+alt+]"],
-    "command": "labster_compress_text"}
-
+    "command": "labster_compress_text"},
+    { "keys": ["ctrl+shift+b"],
+    "command": "labster_quiz_answer_extractor"}
 ]
