@@ -224,3 +224,39 @@ class LabsterCompressTextCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         self.flag = 0
         self.processView(edit)
+
+
+class QuizExtractorQueryData:
+
+    def __init__(self):
+        self.tags = ""
+        self.attributes = ""
+
+    def getView(self, view):
+        viewed_region = sublime.Region(0, view.size())
+        region_string = view.substr(viewed_region)
+        self.collectData(region_string, view)
+
+    def collectData(self, txt, view):
+        root = ET.fromstring(txt)
+        if(len(root) <= 0):
+            return
+        self.collectCorrectAnswer(root, view)
+
+    def collectCorrectAnswer(self, root, view):
+        if(len(root) > 0):
+            print("vxcvxvxvxc")
+            count = 0
+            for element in root.iter("Option"):
+                if(element.attrib.get("IsCorrectAnswer", "") != ""):
+                    count += 1
+                    print("{}:: ".format(count) + element.attrib["Sentence"])
+
+quizExtractor = QuizExtractorQueryData()
+
+
+class LabsterQuizAnswerExtractorCommand(sublime_plugin.TextCommand):
+
+    def run(self, edit):
+        print("kampret")
+        quizExtractor.getView(self.view)
